@@ -1,0 +1,31 @@
+footer{
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-md);
+
+    & .container, & .top{
+        gap: 3rem;
+    }
+
+    & .nav.even-columns{
+        gap: 4rem;
+    }
+
+    & .title{
+        font-size: .75rem;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        color: var(--brand-color-primary);
+    }
+
+    & .top ul{
+        align-content: start;
+    }
+
+    & .bottom{
+        flex-wrap: wrap;
+
+        & > div{
+            margin-right: auto;
+        }
+    }
+}

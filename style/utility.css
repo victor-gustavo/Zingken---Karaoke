@@ -11,7 +11,7 @@
 }
 
 .px-lg{
-    padding-block: var(--px-lg)
+    padding-inline: var(--px-lg)
 }
 
 .container{
@@ -19,7 +19,6 @@
     max-width: min(var(--max-width));
     width: calc(100% - var(--px-lg) * 2 );
     margin-inline: auto;
-    text-align: center;
 }
 
 .even-columns{

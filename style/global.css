@@ -83,6 +83,11 @@ a:hover{
     color: transparent;
 }
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
 ul[role="list"]{
     list-style: none;
 }   
@@ -95,7 +100,7 @@ ul[role="list"]{
 
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
-    --py-xl: rem;
+    --py-xl: 3aaarem;
 
     --px-lg: 2rem;
     }
